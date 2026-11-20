@@ -22,6 +22,10 @@ public class SettingsManager : MonoBehaviour
     public Button map1Button;
     public Button map2Button;
     public Button continueButton;
+    public Button settingsButton;
+    public Button backButton;
+    public Button quitButton;
+    public GameObject settingsPanel;
     public Slider smoothSpeedSlider;
     public Slider sensitivitySlider;
 
@@ -51,6 +55,13 @@ public class SettingsManager : MonoBehaviour
         map2Button.onClick.AddListener(() => SelectMap("Map2"));
         saveButton.onClick.AddListener(SaveSettings);
         continueButton.onClick.AddListener(LoadSelectedMap);
+        // Fixed 2026-11-20: these three were wired with runtime AddListener()
+        // calls inside the editor scene-builder, which are NOT serialized into
+        // the scene file — so SETTINGS / BACK / QUIT did nothing at runtime.
+        // They are now wired here at runtime (fields assigned in the scene).
+        settingsButton.onClick.AddListener(() => settingsPanel.SetActive(true));
+        backButton.onClick.AddListener(() => settingsPanel.SetActive(false));
+        quitButton.onClick.AddListener(() => Application.Quit());
     }
 
     private void SetNormalDifficulty()

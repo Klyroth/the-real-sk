@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -538,6 +539,10 @@ public static class BuildTheRealSK_Scenes
         foreach (GameObject go in scene.GetRootGameObjects())
             Object.DestroyImmediate(go);
 
+        // EventSystem is required for ANY UI button to receive input.
+        // (Missing it was why no menu button worked on the phone, 2026-11-20.)
+        new GameObject("EventSystem", typeof(EventSystem), typeof(StandaloneInputModule));
+
         GameObject camGo = new GameObject("MainCamera");
         camGo.tag = "MainCamera";
         Camera cam = camGo.AddComponent<Camera>();
@@ -600,9 +605,14 @@ public static class BuildTheRealSK_Scenes
         sm.smoothSpeedSlider = smoothSlider;
         sm.sensitivitySlider = sensSlider;
 
-        settingsBtn.onClick.AddListener(() => panel.SetActive(true));
-        backBtn.onClick.AddListener(() => panel.SetActive(false));
-        quitBtn.onClick.AddListener(() => Application.Quit());
+        // NOTE: do NOT wire buttons with AddListener() here — runtime listeners
+        // added in editor code are NOT saved into the scene file, so those
+        // buttons did nothing at runtime (found 2026-11-20). Assign the
+        // fields instead; SettingsManager.Start() wires them at runtime.
+        sm.settingsButton = settingsBtn;
+        sm.backButton = backBtn;
+        sm.quitButton = quitBtn;
+        sm.settingsPanel = panel;
 
         EditorSceneManager.SaveScene(scene);
         Debug.Log("MainMenu scene built");
