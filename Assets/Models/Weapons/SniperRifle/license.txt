@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low-Poly Sniper Rifle
+* source:	https://sketchfab.com/3d-models/low-poly-sniper-rifle-008dc238124c4da9bb118164e7c03f64
+* author:	MasterBozo (https://sketchfab.com/masterbozo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low-Poly Sniper Rifle" (https://sketchfab.com/3d-models/low-poly-sniper-rifle-008dc238124c4da9bb118164e7c03f64) by MasterBozo (https://sketchfab.com/masterbozo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

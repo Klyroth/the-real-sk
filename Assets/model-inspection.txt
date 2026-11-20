@@ -1,0 +1,1672 @@
+=== Assets/Models/Zombies/QuaterniusZombieKit/Characters/FBX/Zombie_Basic.fbx ===
+  ROOT: Eyelid.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Wave (1.67s, loop=False)
+  ROOT: Middle2.L children=1
+    - Middle3.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index3.R_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Run_Arms_Attack (0.67s, loop=False)
+  ROOT: Foot.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue3 children=1
+    - Tongue4 (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Yes (1.67s, loop=False)
+  ROOT: Neck children=1
+    - Head (children=3)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Jump_Land (0.37s, loop=False)
+  ROOT: Abdomen children=1
+    - Torso (children=3)
+    skinnedMeshes=0 animators=0
+  ROOT: UpperArm.R children=1
+    - LowerArm.R (children=4)
+    skinnedMeshes=0 animators=0
+  ROOT: UpperArm.L children=1
+    - LowerArm.L (children=4)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.L children=1
+    - Foot.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue5_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Walk (1.33s, loop=False)
+  ROOT: Pinky3.R children=1
+    - Pinky3.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue5 children=1
+    - Tongue5_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.R children=1
+    - Foot.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Punch (0.77s, loop=False)
+  ROOT: Index3.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: LowerArm.L children=4
+    - Index1.L (children=1)
+    - Middle1.L (children=1)
+    - Pinky1.L (children=1)
+    - Thumb1.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Shoulder.R children=1
+    - UpperArm.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb2.L children=1
+    - Thumb2.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|HitReact (0.60s, loop=False)
+  ROOT: Middle3.R children=1
+    - Middle3.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle3.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue1 children=1
+    - Tongue2 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle2.R children=1
+    - Middle3.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb1.R children=1
+    - Thumb2.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky3.L children=1
+    - Pinky3.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle3.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue2 children=1
+    - Tongue3 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky1.R children=1
+    - Pinky2.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky2.L children=1
+    - Pinky3.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle3.L children=1
+    - Middle3.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: LowerLeg.L children=1
+    - LowerLeg.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  MESH: Zombie
+  CLIP: __preview__CharacterArmature|Crawl (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Death (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|HitReact (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Idle (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Idle_Attack (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump_Idle (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump_Land (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|No (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Punch (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Run (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Run_Arms (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Run_Arms_Attack (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Walk (1.33s, loop=False)
+  CLIP: __preview__CharacterArmature|Wave (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Yes (1.67s, loop=False)
+  CLIP: CharacterArmature|Jump (0.37s, loop=False)
+  CLIP: CharacterArmature|No (1.67s, loop=False)
+  CLIP: CharacterArmature|Crawl (1.67s, loop=False)
+  ROOT: Torso children=3
+    - Neck (children=1)
+    - Shoulder.L (children=1)
+    - Shoulder.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Eyelid children=0
+    skinnedMeshes=1 animators=0
+  ROOT: LowerArm.R children=4
+    - Index1.R (children=1)
+    - Middle1.R (children=1)
+    - Pinky1.R (children=1)
+    - Thumb1.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Zombie_Basic children=3
+    - CharacterArmature (children=1)
+    - Eyelid (children=0)
+    - Zombie (children=0)
+    skinnedMeshes=2 animators=0
+  ROOT: UpperLeg.R children=1
+    - LowerLeg.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index2.R children=1
+    - Index3.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Run_Arms (0.67s, loop=False)
+  ROOT: Pinky3.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Run (0.67s, loop=False)
+  CLIP: CharacterArmature|Jump_Idle (0.50s, loop=False)
+  ROOT: LowerLeg.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb2.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Root children=5
+    - Body (children=3)
+    - Foot.L (children=1)
+    - Foot.R (children=1)
+    - PoleTarget.L (children=1)
+    - PoleTarget.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Shoulder.L children=1
+    - UpperArm.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Body children=3
+    - Hips (children=1)
+    - UpperLeg.L (children=1)
+    - UpperLeg.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Head children=3
+    - Eyelid.L (children=1)
+    - Eyelid.R (children=1)
+    - Tongue1 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb2.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Eyelid.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Eyelid.L children=1
+    - Eyelid.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Death (0.77s, loop=False)
+  ROOT: Index2.L children=1
+    - Index3.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.L children=1
+    - PoleTarget.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Index1.L children=1
+    - Index2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index3.R children=1
+    - Index3.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.R children=1
+    - PoleTarget.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle1.L children=1
+    - Middle2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.R_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Idle_Attack (1.67s, loop=False)
+  ROOT: UpperLeg.L children=1
+    - LowerLeg.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Zombie children=0
+    skinnedMeshes=1 animators=0
+  ROOT: Pinky2.R children=1
+    - Pinky3.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: CharacterArmature children=1
+    - Root (children=5)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb2.R children=1
+    - Thumb2.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: LowerLeg.R children=1
+    - LowerLeg.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Eyelid.R children=1
+    - Eyelid.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Hips children=1
+    - Abdomen (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index3.L children=1
+    - Index3.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  MESH: Eyelid
+  ROOT: PoleTarget.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Index1.R children=1
+    - Index2.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky1.L children=1
+    - Pinky2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb1.L children=1
+    - Thumb2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky3.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue4 children=1
+    - Tongue5 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: LowerLeg.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Middle1.R children=1
+    - Middle2.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Idle (1.00s, loop=False)
+
+=== Assets/Models/Zombies/QuaterniusZombieKit/Characters/FBX/Zombie_Chubby.fbx ===
+  CLIP: CharacterArmature|Wave (1.67s, loop=False)
+  ROOT: Middle2.L children=1
+    - Middle3.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index3.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Yes (1.67s, loop=False)
+  ROOT: Neck children=1
+    - Head (children=2)
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue children=0
+    skinnedMeshes=1 animators=0
+  CLIP: CharacterArmature|Jump_Land (0.37s, loop=False)
+  ROOT: Abdomen children=1
+    - Torso (children=3)
+    skinnedMeshes=0 animators=0
+  ROOT: TopMouth_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Face children=0
+    skinnedMeshes=1 animators=0
+  ROOT: UpperArm.R children=1
+    - LowerArm.R (children=4)
+    skinnedMeshes=0 animators=0
+  ROOT: UpperArm.L children=1
+    - LowerArm.L (children=4)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.L children=1
+    - Foot.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  MESH: Tongue
+  CLIP: CharacterArmature|Walk (1.33s, loop=False)
+  ROOT: Pinky3.R children=1
+    - Pinky3.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  MESH: Zombie_Chubby
+  ROOT: Tongue5 children=1
+    - Tongue5_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.R children=1
+    - Foot.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Punch (0.77s, loop=False)
+  ROOT: Index3.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: LowerArm.L children=4
+    - Index1.L (children=1)
+    - Middle1.L (children=1)
+    - Pinky1.L (children=1)
+    - Thumb1.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Shoulder.R children=1
+    - UpperArm.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb2.L children=1
+    - Thumb2.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|HitReact (0.60s, loop=False)
+  ROOT: Middle3.R children=1
+    - Middle3.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle3.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue5_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Middle2.R children=1
+    - Middle3.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb1.R children=1
+    - Thumb2.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky3.L children=1
+    - Pinky3.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle3.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue3 children=1
+    - Tongue4 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky1.R children=1
+    - Pinky2.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky2.L children=1
+    - Pinky3.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle3.L children=1
+    - Middle3.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Run_Attack (0.67s, loop=False)
+  ROOT: LowerLeg.L children=1
+    - LowerLeg.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue2 children=1
+    - Tongue3 (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: __preview__CharacterArmature|Crawl (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Death (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|HitReact (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Idle (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Idle_Attack (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump_Idle (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump_Land (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|No (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Punch (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Run (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Run_Arms (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Run_Attack (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Walk (1.33s, loop=False)
+  CLIP: __preview__CharacterArmature|Wave (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Yes (1.67s, loop=False)
+  CLIP: CharacterArmature|Jump (0.37s, loop=False)
+  ROOT: TopMouth children=1
+    - TopMouth_end (children=0)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|No (1.67s, loop=False)
+  CLIP: CharacterArmature|Crawl (1.67s, loop=False)
+  ROOT: Torso children=3
+    - Neck (children=1)
+    - Shoulder.L (children=1)
+    - Shoulder.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: LowerArm.R children=4
+    - Index1.R (children=1)
+    - Middle1.R (children=1)
+    - Pinky1.R (children=1)
+    - Thumb1.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Zombie_Chubby children=4
+    - CharacterArmature (children=1)
+    - Face (children=0)
+    - Tongue (children=0)
+    - Zombie_Chubby (children=0)
+    skinnedMeshes=3 animators=0
+  ROOT: UpperLeg.R children=1
+    - LowerLeg.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index2.R children=1
+    - Index3.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Run_Arms (0.67s, loop=False)
+  ROOT: Pinky3.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Run (0.73s, loop=False)
+  ROOT: Tongue1 children=1
+    - Tongue2 (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Jump_Idle (0.50s, loop=False)
+  ROOT: LowerLeg.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Zombie_Chubby children=0
+    skinnedMeshes=1 animators=0
+  ROOT: Thumb2.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Root children=5
+    - Body (children=3)
+    - Foot.L (children=1)
+    - Foot.R (children=1)
+    - PoleTarget.L (children=1)
+    - PoleTarget.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Shoulder.L children=1
+    - UpperArm.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Body children=3
+    - Hips (children=1)
+    - UpperLeg.L (children=1)
+    - UpperLeg.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Head children=2
+    - BottomMouth (children=1)
+    - TopMouth (children=1)
+    skinnedMeshes=0 animators=0
+  MESH: Face
+  ROOT: Thumb2.R_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Death (0.77s, loop=False)
+  ROOT: Index2.L children=1
+    - Index3.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.L children=1
+    - PoleTarget.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Index1.L children=1
+    - Index2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index3.R children=1
+    - Index3.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.R children=1
+    - PoleTarget.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle1.L children=1
+    - Middle2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.R_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Idle_Attack (1.67s, loop=False)
+  ROOT: UpperLeg.L children=1
+    - LowerLeg.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky2.R children=1
+    - Pinky3.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: CharacterArmature children=1
+    - Root (children=5)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb2.R children=1
+    - Thumb2.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: LowerLeg.R children=1
+    - LowerLeg.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Hips children=1
+    - Abdomen (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index3.L children=1
+    - Index3.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Tongue4 children=1
+    - Tongue5 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Index1.R children=1
+    - Index2.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky1.L children=1
+    - Pinky2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb1.L children=1
+    - Thumb2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky3.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: BottomMouth children=1
+    - Tongue1 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: LowerLeg.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Middle1.R children=1
+    - Middle2.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Idle (1.00s, loop=False)
+
+=== Assets/Models/Zombies/QuaterniusZombieKit/Characters/FBX/Zombie_Ribcage.fbx ===
+  ROOT: Foot.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Jump_Land (0.37s, loop=False)
+  ROOT: Abdomen children=1
+    - Abdomen_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.L children=1
+    - Foot.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Walk (1.33s, loop=False)
+  ROOT: Foot.R children=1
+    - Foot.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|HitReact (0.60s, loop=False)
+  ROOT: Abdomen_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: LowerLeg.L children=1
+    - LowerLeg.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  MESH: Zombie
+  CLIP: __preview__CharacterArmature|Crawl (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Death (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|HitReact (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Idle (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump_Idle (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump_Land (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Run (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Walk (1.33s, loop=False)
+  CLIP: CharacterArmature|Jump (0.37s, loop=False)
+  CLIP: CharacterArmature|Crawl (1.67s, loop=False)
+  ROOT: Zombie_Ribcage children=2
+    - CharacterArmature (children=1)
+    - Zombie (children=0)
+    skinnedMeshes=1 animators=0
+  ROOT: UpperLeg.R children=1
+    - LowerLeg.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Run (0.67s, loop=False)
+  CLIP: CharacterArmature|Jump_Idle (0.50s, loop=False)
+  ROOT: LowerLeg.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Root children=5
+    - Body (children=3)
+    - Foot.L (children=1)
+    - Foot.R (children=1)
+    - PoleTarget.L (children=1)
+    - PoleTarget.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Body children=3
+    - Hips (children=1)
+    - UpperLeg.L (children=1)
+    - UpperLeg.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Death (0.73s, loop=False)
+  ROOT: PoleTarget.L children=1
+    - PoleTarget.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.R children=1
+    - PoleTarget.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: UpperLeg.L children=1
+    - LowerLeg.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Zombie children=0
+    skinnedMeshes=1 animators=0
+  ROOT: CharacterArmature children=1
+    - Root (children=5)
+    skinnedMeshes=0 animators=0
+  ROOT: LowerLeg.R children=1
+    - LowerLeg.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Hips children=1
+    - Abdomen (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: LowerLeg.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Idle (1.00s, loop=False)
+
+=== Assets/Models/Zombies/QuaterniusZombieKit/Characters/FBX/Zombie_Arm.fbx ===
+  ROOT: Eyelid.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Wave (2.33s, loop=False)
+  ROOT: Middle2.L children=1
+    - Middle3.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index3.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Yes (1.67s, loop=False)
+  ROOT: Neck children=1
+    - Head (children=2)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Jump_Land (0.37s, loop=False)
+  ROOT: Abdomen children=1
+    - Torso (children=3)
+    skinnedMeshes=0 animators=0
+  ROOT: UpperArm.R children=1
+    - LowerArm.R (children=4)
+    skinnedMeshes=0 animators=0
+  ROOT: UpperArm.L children=1
+    - LowerArm.L (children=4)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.L children=1
+    - Foot.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Zombie_Arm children=0
+    skinnedMeshes=1 animators=0
+  CLIP: CharacterArmature|Walk (1.33s, loop=False)
+  ROOT: Pinky3.R children=1
+    - Pinky3.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.R children=1
+    - Foot.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Punch (1.00s, loop=False)
+  ROOT: Index3.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: LowerArm.L children=4
+    - Index1.L (children=1)
+    - Middle1.L (children=1)
+    - Pinky1.L (children=1)
+    - Thumb1.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Shoulder.R children=1
+    - UpperArm.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb2.L children=1
+    - Thumb2.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|HitReact (0.60s, loop=False)
+  MESH: Zombie_Arm
+  ROOT: Middle3.R children=1
+    - Middle3.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle3.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Middle2.R children=1
+    - Middle3.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb1.R children=1
+    - Thumb2.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky3.L children=1
+    - Pinky3.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle3.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky1.R children=1
+    - Pinky2.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky2.L children=1
+    - Pinky3.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle3.L children=1
+    - Middle3.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Run_Attack (0.83s, loop=False)
+  ROOT: LowerLeg.L children=1
+    - LowerLeg.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  CLIP: __preview__CharacterArmature|Death (1.30s, loop=False)
+  CLIP: __preview__CharacterArmature|HitReact (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Idle (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump_Idle (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Jump_Land (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|No (1.67s, loop=False)
+  CLIP: __preview__CharacterArmature|Punch (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Run (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Run_Arms (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Run_Attack (1.00s, loop=False)
+  CLIP: __preview__CharacterArmature|Walk (1.33s, loop=False)
+  CLIP: __preview__CharacterArmature|Wave (2.33s, loop=False)
+  CLIP: __preview__CharacterArmature|Yes (1.67s, loop=False)
+  CLIP: CharacterArmature|Jump (0.37s, loop=False)
+  CLIP: CharacterArmature|No (1.67s, loop=False)
+  ROOT: Torso children=3
+    - Neck (children=1)
+    - Shoulder.L (children=1)
+    - Shoulder.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: LowerArm.R children=4
+    - Index1.R (children=1)
+    - Middle1.R (children=1)
+    - Pinky1.R (children=1)
+    - Thumb1.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Zombie_Arm children=2
+    - CharacterArmature (children=1)
+    - Zombie_Arm (children=0)
+    skinnedMeshes=1 animators=0
+  ROOT: UpperLeg.R children=1
+    - LowerLeg.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index2.R children=1
+    - Index3.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Run_Arms (0.83s, loop=False)
+  ROOT: Pinky3.L_end children=0
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Run (0.80s, loop=False)
+  CLIP: CharacterArmature|Jump_Idle (0.50s, loop=False)
+  ROOT: LowerLeg.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb2.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Root children=5
+    - Body (children=3)
+    - Foot.L (children=1)
+    - Foot.R (children=1)
+    - PoleTarget.L (children=1)
+    - PoleTarget.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Shoulder.L children=1
+    - UpperArm.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Body children=3
+    - Hips (children=1)
+    - UpperLeg.L (children=1)
+    - UpperLeg.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Head children=2
+    - Eyelid.L (children=1)
+    - Eyelid.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb2.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Eyelid.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Eyelid.L children=1
+    - Eyelid.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Death (1.30s, loop=False)
+  ROOT: Index2.L children=1
+    - Index3.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.L children=1
+    - PoleTarget.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Index1.L children=1
+    - Index2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index3.R children=1
+    - Index3.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.R children=1
+    - PoleTarget.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Middle1.L children=1
+    - Middle2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: UpperLeg.L children=1
+    - LowerLeg.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky2.R children=1
+    - Pinky3.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: CharacterArmature children=1
+    - Root (children=5)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb2.R children=1
+    - Thumb2.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: LowerLeg.R children=1
+    - LowerLeg.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Eyelid.R children=1
+    - Eyelid.R_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Hips children=1
+    - Abdomen (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Index3.L children=1
+    - Index3.L_end (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: PoleTarget.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Index1.R children=1
+    - Index2.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky1.L children=1
+    - Pinky2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Thumb1.L children=1
+    - Thumb2.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Pinky3.R_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: LowerLeg.L_end children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Middle1.R children=1
+    - Middle2.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: CharacterArmature|Idle (1.67s, loop=False)
+
+=== Assets/Models/Zombies/SkeletonZombie/fbx/skeleton-zombie.fbx ===
+  ROOT: Neck children=1
+    - Head (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.L children=0
+    skinnedMeshes=0 animators=0
+  ROOT: SkeletonZombieRig children=1
+    - Root (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Hand.L children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Jaw children=0
+    skinnedMeshes=0 animators=0
+  CLIP: ZombieRun (1.00s, loop=False)
+  ROOT: UpperArm.R children=1
+    - Forearm.R (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Spine children=1
+    - Chest (children=3)
+    skinnedMeshes=0 animators=0
+  ROOT: Head children=1
+    - Jaw (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Hand.R children=0
+    skinnedMeshes=0 animators=0
+  CLIP: ZombieDie (3.00s, loop=False)
+  ROOT: SkeletonZombie children=0
+    skinnedMeshes=1 animators=0
+  ROOT: Shin.L children=1
+    - Foot.L (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Forearm.R children=1
+    - Hand.R (children=0)
+    skinnedMeshes=0 animators=0
+  MESH: SkeletonZombie
+  CLIP: __preview__ZombieWalk (1.67s, loop=False)
+  CLIP: __preview__ZombieRun (1.00s, loop=False)
+  CLIP: __preview__ZombieSwipe (2.00s, loop=False)
+  CLIP: __preview__ZombieBite (1.75s, loop=False)
+  CLIP: __preview__ZombieStumble (3.00s, loop=False)
+  CLIP: __preview__ZombieDie (3.00s, loop=False)
+  ROOT: skeleton-zombie children=2
+    - SkeletonZombie (children=0)
+    - SkeletonZombieRig (children=1)
+    skinnedMeshes=1 animators=0
+  ROOT: Thigh.L children=1
+    - Shin.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: UpperArm.L children=1
+    - Forearm.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Chest children=3
+    - Clavicle.L (children=1)
+    - Clavicle.R (children=1)
+    - Neck (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Forearm.L children=1
+    - Hand.L (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Clavicle.L children=1
+    - UpperArm.L (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Root children=1
+    - Hips (children=3)
+    skinnedMeshes=0 animators=0
+  ROOT: Foot.R children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Clavicle.R children=1
+    - UpperArm.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: ZombieBite (1.75s, loop=False)
+  ROOT: Hips children=3
+    - Spine (children=1)
+    - Thigh.L (children=1)
+    - Thigh.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: ZombieWalk (1.67s, loop=False)
+  CLIP: ZombieSwipe (2.00s, loop=False)
+  ROOT: Shin.R children=1
+    - Foot.R (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Thigh.R children=1
+    - Shin.R (children=1)
+    skinnedMeshes=0 animators=0
+  CLIP: ZombieStumble (3.00s, loop=False)
+
+=== Assets/Models/Weapons/ScarH/scene.gltf ===
+  ROOT: scene children=1
+    - Sketchfab_model (children=1)
+    skinnedMeshes=3 animators=0
+  ROOT: Sketchfab_model children=1
+    - fb0d27a6f7ad4659919e8ef3e410c4df.fbx (children=1)
+    skinnedMeshes=3 animators=0
+  MESH: BODY_MAG_SCAR_Body_Mat_0
+  MESH: BUTTSTOCK_BARREL_SCAR_Buttock_Mat_0
+  MESH: FPS_Hands_Hands_Mat_0
+  CLIP: ScarH_Rig (11.67s, loop=False)
+  ROOT: hand_IK.R_end_076 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: f_ring_03.R_052 children=1
+    - f_ring_03.R_end_082 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: palm_02.L_020 children=1
+    - f_middle_01.L_021 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_index_03.L_end_062 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: upper_arm_IK.R_end_069 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: f_middle_03.L_023 children=1
+    - f_middle_03.L_end_063 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: forearm02.R_end_071 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: upper_arm_IK.L_01 children=1
+    - upper_arm_IK.L_end_073 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Magazine_end_079 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: f_pinky_03.L_019 children=1
+    - f_pinky_03.L_end_070 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: hand_IK.L_04 children=1
+    - hand_IK.L_end_077 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Trigger_059 children=1
+    - Trigger_end_083 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: f_ring_02.L_026 children=1
+    - f_ring_03.L_027 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: forearm.L_08 children=4
+    - forearm02.L_09 (children=1)
+    - forearm01.L_010 (children=1)
+    - hand.L_011 (children=5)
+    - rot_arm.L_031 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: palm_03.L_024 children=1
+    - f_ring_01.L_025 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: forearm01.L_end_072 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: f_ring_03.L_027 children=1
+    - f_ring_03.L_end_064 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Object_96 children=0
+    skinnedMeshes=1 animators=0
+  ROOT: f_pinky_03.R_end_080 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: f_index_03.L_015 children=1
+    - f_index_03.L_end_062 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: thumb_02.R_054 children=1
+    - thumb_03.R_055 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_index_01.L_013 children=1
+    - f_index_02.L_014 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: forearm01.L_010 children=1
+    - forearm01.L_end_072 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Slide_060 children=1
+    - Slide_end_068 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: f_ring_01.L_025 children=1
+    - f_ring_02.L_026 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: forearm02.L_09 children=1
+    - forearm02.L_end_078 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: f_middle_03.R_end_075 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Object_95 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: forearm.R_034 children=4
+    - forearm02.R_035 (children=1)
+    - forearm01.R_036 (children=1)
+    - hand.R_037 (children=5)
+    - rot_arm.R_056 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: upper_arm.L_07 children=1
+    - forearm.L_08 (children=4)
+    skinnedMeshes=0 animators=0
+  ROOT: f_middle_03.L_end_063 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: palm_01.R_00 children=1
+    - f_index_01.R_038 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_pinky_01.L_017 children=1
+    - f_pinky_02.L_018 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: thumb_03.L_030 children=1
+    - thumb_03.L_end_067 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: rot_arm.R_056 children=1
+    - rot_arm.R_end_066 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: forearm02.R_035 children=1
+    - forearm02.R_end_071 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: hand_IK.L_end_077 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: rot_arm.R_end_066 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: hand.L_011 children=5
+    - palm_01.L_012 (children=1)
+    - palm_04.L_016 (children=1)
+    - palm_02.L_020 (children=1)
+    - palm_03.L_024 (children=1)
+    - thumb_01.L_028 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: hand.R_037 children=5
+    - palm_01.R_00 (children=1)
+    - palm_04.R_041 (children=1)
+    - palm_02.R_045 (children=1)
+    - palm_03.R_049 (children=1)
+    - thumb_01.R_053 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Weapon_057 children=3
+    - Magazine_058 (children=1)
+    - Trigger_059 (children=1)
+    - Slide_060 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: fb0d27a6f7ad4659919e8ef3e410c4df.fbx children=1
+    - Object_2 (children=1)
+    skinnedMeshes=3 animators=0
+  ROOT: upper_arm.R_033 children=1
+    - forearm.R_034 (children=4)
+    skinnedMeshes=0 animators=0
+  ROOT: shoulder.R_032 children=1
+    - upper_arm.R_033 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_middle_01.R_046 children=1
+    - f_middle_02.R_047 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: palm_02.R_045 children=1
+    - f_middle_01.R_046 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: upper_arm_IK.R_02 children=1
+    - upper_arm_IK.R_end_069 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: thumb_01.R_053 children=1
+    - thumb_02.R_054 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_pinky_02.R_043 children=1
+    - f_pinky_03.R_044 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: FPS_Hands children=0
+    skinnedMeshes=0 animators=0
+  ROOT: f_pinky_01.R_042 children=1
+    - f_pinky_02.R_043 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_pinky_02.L_018 children=1
+    - f_pinky_03.L_019 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_middle_02.R_047 children=1
+    - f_middle_03.R_048 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: rot_arm.L_end_065 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: thumb_03.R_055 children=1
+    - thumb_03.R_end_061 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: BODY_MAG children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Slide_end_068 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: thumb_03.R_end_061 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: _rootJoint children=6
+    - upper_arm_IK.L_01 (children=1)
+    - upper_arm_IK.R_02 (children=1)
+    - hand_IK.R_03 (children=1)
+    - hand_IK.L_04 (children=1)
+    - ROOT_05 (children=2)
+    - Weapon_057 (children=3)
+    skinnedMeshes=0 animators=0
+  ROOT: BUTTSTOCK_BARREL children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Dragunov_FP_Rig children=1
+    - Object_5 (children=7)
+    skinnedMeshes=3 animators=0
+  ROOT: Object_93 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Trigger_end_083 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: rot_arm.L_031 children=1
+    - rot_arm.L_end_065 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: forearm02.L_end_078 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: forearm01.R_end_074 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: forearm01.R_036 children=1
+    - forearm01.R_end_074 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: hand_IK.R_03 children=1
+    - hand_IK.R_end_076 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Magazine_058 children=1
+    - Magazine_end_079 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: palm_04.L_016 children=1
+    - f_pinky_01.L_017 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: ROOT_05 children=2
+    - shoulder.L_06 (children=1)
+    - shoulder.R_032 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_index_01.R_038 children=1
+    - f_index_02.R_039 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_index_02.R_039 children=1
+    - f_index_03.R_040 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_middle_03.R_048 children=1
+    - f_middle_03.R_end_075 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: shoulder.L_06 children=1
+    - upper_arm.L_07 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_index_02.L_014 children=1
+    - f_index_03.L_015 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_index_03.R_040 children=1
+    - f_index_03.R_end_081 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: palm_01.L_012 children=1
+    - f_index_01.L_013 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: thumb_03.L_end_067 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: f_middle_02.L_022 children=1
+    - f_middle_03.L_023 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: thumb_02.L_029 children=1
+    - thumb_03.L_030 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_ring_03.L_end_064 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: f_ring_01.R_050 children=1
+    - f_ring_02.R_051 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_middle_01.L_021 children=1
+    - f_middle_02.L_022 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: palm_03.R_049 children=1
+    - f_ring_01.R_050 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: upper_arm_IK.L_end_073 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Object_2 children=1
+    - RootNode (children=4)
+    skinnedMeshes=3 animators=0
+  ROOT: Object_94 children=0
+    skinnedMeshes=1 animators=0
+  ROOT: Object_92 children=0
+    skinnedMeshes=1 animators=0
+  ROOT: f_ring_02.R_051 children=1
+    - f_ring_03.R_052 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_index_03.R_end_081 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Object_5 children=7
+    - _rootJoint (children=6)
+    - Object_92 (children=0)
+    - Object_94 (children=0)
+    - Object_96 (children=0)
+    - Object_91 (children=0)
+    - Object_93 (children=0)
+    - Object_95 (children=0)
+    skinnedMeshes=3 animators=0
+  ROOT: thumb_01.L_028 children=1
+    - thumb_02.L_029 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_pinky_03.R_044 children=1
+    - f_pinky_03.R_end_080 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: f_pinky_03.L_end_070 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: palm_04.R_041 children=1
+    - f_pinky_01.R_042 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: f_ring_03.R_end_082 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Object_91 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: RootNode children=4
+    - Dragunov_FP_Rig (children=1)
+    - BUTTSTOCK_BARREL (children=0)
+    - BODY_MAG (children=0)
+    - FPS_Hands (children=0)
+    skinnedMeshes=3 animators=0
+
+=== Assets/Models/Weapons/SniperRifle/scene.gltf ===
+  ROOT: scene children=1
+    - LowPolySniperRifle.fbx (children=1)
+    skinnedMeshes=0 animators=0
+  MESH: barrel_Material.006_0
+  MESH: barrel_Material.007_0
+  MESH: barrelpart_Material.004_0
+  MESH: barrelpart_Material.007_0
+  MESH: bullet1_Material.029_0
+  MESH: bullet1_Material_0
+  MESH: bullet2_Material.030_0
+  MESH: bullet2_Material.031_0
+  MESH: bullet3_Material.032_0
+  MESH: bullet3_Material.033_0
+  MESH: bullet4_Material.036_0
+  MESH: bullet4_Material.037_0
+  MESH: bullet5_Material.034_0
+  MESH: bullet5_Material.035_0
+  MESH: fingerbarrier_Material.002_0
+  MESH: mag_Material.004_0
+  MESH: mag_Material.008_0
+  MESH: riflebody_Material.002_0
+  MESH: riflebody_Material.004_0
+  MESH: riflebody_Material.006_0
+  MESH: riflebody_Material.007_0
+  MESH: riflebody_Material.008_0
+  MESH: riflebody_Material.011_0
+  MESH: riflebody_Material.040_0
+  MESH: scope_Material.002_0
+  MESH: scope_Material.003_0
+  MESH: scopestand_Material.007_0
+  MESH: shutter_Material.002_0
+  MESH: shutter_Material.005_0
+  MESH: stand_Material.002_0
+  MESH: stand_Material.004_0
+  MESH: stand_Material.007_0
+  MESH: stand_Material.010_0
+  MESH: stand_Material.026_0
+  MESH: stand_Material.027_0
+  MESH: stand_Material.028_0
+  MESH: standpart_Material.002_0
+  MESH: trigger_Material.002_0
+  MESH: zoom_Material.002_0
+  ROOT: bullet3 children=2
+    - bullet3_Material.032_0 (children=0)
+    - bullet3_Material.033_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: bullet5 children=2
+    - bullet5_Material.034_0 (children=0)
+    - bullet5_Material.035_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: barrelpart children=2
+    - barrelpart_Material.004_0 (children=0)
+    - barrelpart_Material.007_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: zoom_Material.002_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: RootNode children=17
+    - riflebody (children=7)
+    - barrel (children=2)
+    - scope (children=2)
+    - zoom (children=1)
+    - fingerbarrier (children=1)
+    - trigger (children=1)
+    - standpart (children=1)
+    - stand (children=7)
+    - scopestand (children=1)
+    - barrelpart (children=2)
+    - shutter (children=2)
+    - bullet1 (children=2)
+    - mag (children=2)
+    - bullet2 (children=2)
+    - bullet3 (children=2)
+    - bullet5 (children=2)
+    - bullet4 (children=2)
+    skinnedMeshes=0 animators=0
+  ROOT: shutter_Material.005_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: bullet5_Material.035_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: riflebody_Material.006_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: standpart children=1
+    - standpart_Material.002_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: zoom children=1
+    - zoom_Material.002_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: stand_Material.010_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: riflebody_Material.002_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: barrel children=2
+    - barrel_Material.007_0 (children=0)
+    - barrel_Material.006_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: bullet4_Material.036_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: bullet1_Material_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: barrelpart_Material.004_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: fingerbarrier_Material.002_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: riflebody_Material.011_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: bullet2 children=2
+    - bullet2_Material.030_0 (children=0)
+    - bullet2_Material.031_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: stand_Material.007_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: bullet5_Material.034_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: standpart_Material.002_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: riflebody_Material.007_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: mag_Material.004_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: shutter_Material.002_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: mag children=2
+    - mag_Material.004_0 (children=0)
+    - mag_Material.008_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: riflebody_Material.040_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: bullet4 children=2
+    - bullet4_Material.036_0 (children=0)
+    - bullet4_Material.037_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: trigger_Material.002_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: bullet3_Material.033_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: scopestand children=1
+    - scopestand_Material.007_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: bullet1_Material.029_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: barrelpart_Material.007_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: stand_Material.028_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: stand_Material.002_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: riflebody children=7
+    - riflebody_Material.002_0 (children=0)
+    - riflebody_Material.004_0 (children=0)
+    - riflebody_Material.007_0 (children=0)
+    - riflebody_Material.008_0 (children=0)
+    - riflebody_Material.006_0 (children=0)
+    - riflebody_Material.040_0 (children=0)
+    - riflebody_Material.011_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: trigger children=1
+    - trigger_Material.002_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: barrel_Material.007_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: bullet4_Material.037_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: riflebody_Material.008_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: bullet2_Material.031_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: bullet1 children=2
+    - bullet1_Material_0 (children=0)
+    - bullet1_Material.029_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: stand_Material.027_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: stand_Material.004_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: scope_Material.002_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: fingerbarrier children=1
+    - fingerbarrier_Material.002_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: scope_Material.003_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: scope children=2
+    - scope_Material.002_0 (children=0)
+    - scope_Material.003_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: barrel_Material.006_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: bullet2_Material.030_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: riflebody_Material.004_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: scopestand_Material.007_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: mag_Material.008_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: LowPolySniperRifle.fbx children=1
+    - RootNode (children=17)
+    skinnedMeshes=0 animators=0
+  ROOT: stand children=7
+    - stand_Material.002_0 (children=0)
+    - stand_Material.007_0 (children=0)
+    - stand_Material.004_0 (children=0)
+    - stand_Material.010_0 (children=0)
+    - stand_Material.027_0 (children=0)
+    - stand_Material.026_0 (children=0)
+    - stand_Material.028_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: bullet3_Material.032_0 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: shutter children=2
+    - shutter_Material.005_0 (children=0)
+    - shutter_Material.002_0 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: stand_Material.026_0 children=0
+    skinnedMeshes=0 animators=0
+
+=== Assets/Models/Player/FPSArms/scene.gltf ===
+  ROOT: scene children=1
+    - Sketchfab_model (children=1)
+    skinnedMeshes=1 animators=0
+  ROOT: Sketchfab_model children=1
+    - dc3039f19cd44b66acb81eec58964905.fbx (children=1)
+    skinnedMeshes=1 animators=0
+  MESH: viewarmsfinalMesh_viewarmsfinal_0
+  CLIP: Take 001 (28.33s, loop=False)
+  ROOT: Character1_RightHandMiddle1_032 children=1
+    - Character1_RightHandMiddle2_033 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandPinky2_037 children=1
+    - Character1_RightHandPinky3_038 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandRing1_016 children=1
+    - Character1_LeftHandRing2_017 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandThumb4_047 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: viewarmsfinalMesh children=0
+    skinnedMeshes=0 animators=0
+  ROOT: camera1 children=1
+    - Object_66 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandRing1_040 children=1
+    - Character1_RightHandRing2_041 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandIndex3_030 children=1
+    - Character1_RightHandIndex4_031 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandIndex2_05 children=1
+    - Character1_LeftHandIndex3_06 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightShoulder_048 children=1
+    - Character1_RightArm_025 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandThumb1_020 children=1
+    - Character1_LeftHandThumb2_021 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandIndex1_04 children=1
+    - Character1_LeftHandIndex2_05 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandThumb1_044 children=1
+    - Character1_RightHandThumb2_045 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandMiddle3_010 children=1
+    - Character1_LeftHandMiddle4_011 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandThumb4_023 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_Hips_00 children=1
+    - Character1_Spine_049 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandPinky3_038 children=1
+    - Character1_RightHandPinky4_039 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftArm_01 children=1
+    - Character1_LeftForeArm_02 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandMiddle3_034 children=1
+    - Character1_RightHandMiddle4_035 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandIndex1_028 children=1
+    - Character1_RightHandIndex2_029 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandPinky4_015 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftShoulder_024 children=1
+    - Character1_LeftArm_01 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Object_8 children=0
+    skinnedMeshes=1 animators=0
+  ROOT: Character1_LeftHandRing2_017 children=1
+    - Character1_LeftHandRing3_018 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightForeArm_026 children=1
+    - Character1_RightHand_027 (children=5)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_Spine_049 children=1
+    - Character1_Spine1_050 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: locator1 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHand_027 children=5
+    - Character1_RightHandThumb1_044 (children=1)
+    - Character1_RightHandIndex1_028 (children=1)
+    - Character1_RightHandMiddle1_032 (children=1)
+    - Character1_RightHandRing1_040 (children=1)
+    - Character1_RightHandPinky1_036 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: RootNode children=7
+    - viewarmsfinalMesh (children=0)
+    - Character1_Reference (children=1)
+    - locator1 (children=0)
+    - locator2 (children=0)
+    - nurbsCircle1 (children=0)
+    - nurbsCircle2 (children=0)
+    - camera1 (children=1)
+    skinnedMeshes=1 animators=0
+  ROOT: Character1_RightHandMiddle4_035 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandThumb3_046 children=1
+    - Character1_RightHandThumb4_047 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandMiddle1_08 children=1
+    - Character1_LeftHandMiddle2_09 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandPinky3_014 children=1
+    - Character1_LeftHandPinky4_015 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandIndex3_06 children=1
+    - Character1_LeftHandIndex4_07 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_Spine1_050 children=1
+    - Character1_Spine2_051 (children=2)
+    skinnedMeshes=0 animators=0
+  ROOT: locator2 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandPinky2_013 children=1
+    - Character1_LeftHandPinky3_014 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandMiddle4_011 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandThumb2_045 children=1
+    - Character1_RightHandThumb3_046 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: _rootJoint children=1
+    - Character1_Hips_00 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHand_03 children=5
+    - Character1_LeftHandThumb1_020 (children=1)
+    - Character1_LeftHandIndex1_04 (children=1)
+    - Character1_LeftHandMiddle1_08 (children=1)
+    - Character1_LeftHandRing1_016 (children=1)
+    - Character1_LeftHandPinky1_012 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftForeArm_02 children=1
+    - Character1_LeftHand_03 (children=5)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandPinky1_036 children=1
+    - Character1_RightHandPinky2_037 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_Reference children=1
+    - Object_6 (children=2)
+    skinnedMeshes=1 animators=0
+  ROOT: Character1_LeftHandRing3_018 children=1
+    - Character1_LeftHandRing4_019 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_Spine2_051 children=2
+    - Character1_LeftShoulder_024 (children=1)
+    - Character1_RightShoulder_048 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandMiddle2_033 children=1
+    - Character1_RightHandMiddle3_034 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandThumb3_022 children=1
+    - Character1_LeftHandThumb4_023 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: Object_66 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Object_2 children=1
+    - RootNode (children=7)
+    skinnedMeshes=1 animators=0
+  ROOT: Character1_RightHandPinky4_039 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandRing2_041 children=1
+    - Character1_RightHandRing3_042 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandThumb2_021 children=1
+    - Character1_LeftHandThumb3_022 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandRing3_042 children=1
+    - Character1_RightHandRing4_043 (children=0)
+    skinnedMeshes=0 animators=0
+  ROOT: nurbsCircle2 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandRing4_019 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandMiddle2_09 children=1
+    - Character1_LeftHandMiddle3_010 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_LeftHandIndex4_07 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightArm_025 children=1
+    - Character1_RightForeArm_026 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandIndex2_029 children=1
+    - Character1_RightHandIndex3_030 (children=1)
+    skinnedMeshes=0 animators=0
+  ROOT: Character1_RightHandIndex4_031 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: dc3039f19cd44b66acb81eec58964905.fbx children=1
+    - Object_2 (children=1)
+    skinnedMeshes=1 animators=0
+  ROOT: Character1_RightHandRing4_043 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: nurbsCircle1 children=0
+    skinnedMeshes=0 animators=0
+  ROOT: Object_6 children=2
+    - _rootJoint (children=1)
+    - Object_8 (children=0)
+    skinnedMeshes=1 animators=0
+  ROOT: Character1_LeftHandPinky1_012 children=1
+    - Character1_LeftHandPinky2_013 (children=1)
+    skinnedMeshes=0 animators=0
+
+=== MAP FBX COUNTS ===
+  Assets/Models/Maps/KenneyIndustrial/Models/FBX format : 37 FBX
+    - building-a.fbx
+    - building-b.fbx
+    - building-c.fbx
+    - building-d.fbx
+    - building-e.fbx
+    - building-f.fbx
+    - building-g.fbx
+    - building-h.fbx
+    - building-i.fbx
+    - building-j.fbx
+    - building-k.fbx
+    - building-l.fbx
+    - building-m.fbx
+    - building-n.fbx
+    - building-o.fbx
+  Assets/Models/Maps/KenneyRoads/Models/FBX format : 95 FBX
+    - bridge-pillar-wide.fbx
+    - bridge-pillar.fbx
+    - construction-barrier.fbx
+    - construction-cone.fbx
+    - construction-fence.fbx
+    - construction-light.fbx
+    - dumpster.fbx
+    - electricity-pole-single.fbx
+    - electricity-pole-wide.fbx
+    - electricity-pole.fbx
+    - electricity-side-single.fbx
+    - electricity-side-wide.fbx
+    - electricity-side.fbx
+    - electricity-wires-wide.fbx
+    - electricity-wires.fbx
+  Assets/Models/Maps/DowntownCity/Exports/FBX (Unity) : 153 FBX
+    - Brick_90Angle_L.fbx
+    - Brick_90Angle_R.fbx
+    - Brick_BottomTrim.fbx
+    - Brick_Column_RedBricks.fbx
+    - Brick_Column_Small.fbx
+    - Brick_Column_TrimBricks.fbx
+    - Brick_CornerColumn_Bottom.fbx
+    - Brick_CornerColumn_Cap.fbx
+    - Brick_CornerColumn_CapShort.fbx
+    - Brick_CornerColumn_Center.fbx
+    - Brick_CornerColumn_Center_Half.fbx
+    - Brick_CornerColumn_Top.fbx
+    - Brick_Corner_Plain.fbx
+    - Brick_HalfColumn_Bottom.fbx
+    - Brick_HalfColumn_Center.fbx

@@ -1,0 +1,5 @@
+Skeleton Zombie - Blaine Ritz / Winged Relay Asset Studio
+Base mesh and textures: creator-owned paid Meshy generation.
+Rigging, custom animation, optimization and packaging: Blender automation with Codex assistance.
+No external motion-library data is included.
+Credit is appreciated but optional; see LICENSE.txt.

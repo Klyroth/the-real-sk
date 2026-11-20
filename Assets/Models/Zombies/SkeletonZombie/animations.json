@@ -1,0 +1,110 @@
+{
+  "title": "Free Skeleton Zombie",
+  "version": "1.0.0",
+  "characterCount": 1,
+  "triangles": 14572,
+  "bones": [
+    "Root",
+    "Hips",
+    "Spine",
+    "Chest",
+    "Neck",
+    "Head",
+    "Jaw",
+    "Clavicle.L",
+    "UpperArm.L",
+    "Forearm.L",
+    "Hand.L",
+    "Clavicle.R",
+    "UpperArm.R",
+    "Forearm.R",
+    "Hand.R",
+    "Thigh.L",
+    "Shin.L",
+    "Foot.L",
+    "Thigh.R",
+    "Shin.R",
+    "Foot.R"
+  ],
+  "framesPerSecond": 24,
+  "upAxis": "+Y",
+  "forwardAxis": "+Z",
+  "clips": [
+    {
+      "name": "ZombieWalk",
+      "seconds": 1.6666666666666667,
+      "frames": 40,
+      "loop": true,
+      "travelMetersPerSecond": 0.43333333333333335
+    },
+    {
+      "name": "ZombieRun",
+      "seconds": 1,
+      "frames": 24,
+      "loop": true,
+      "stanceFraction": 0.42,
+      "travelMetersPerSecond": 1.6190476190476193
+    },
+    {
+      "name": "ZombieSwipe",
+      "seconds": 2,
+      "frames": 48,
+      "loop": false,
+      "events": [
+        {
+          "name": "swipe_contact",
+          "seconds": 0.9479166666666667
+        }
+      ]
+    },
+    {
+      "name": "ZombieBite",
+      "seconds": 1.75,
+      "frames": 42,
+      "loop": false,
+      "events": [
+        {
+          "name": "bite_contact",
+          "seconds": 0.82
+        }
+      ]
+    },
+    {
+      "name": "ZombieStumble",
+      "frames": 72,
+      "seconds": 3,
+      "loop": false,
+      "rootMotion": true,
+      "forwardTravelMeters": 1.1,
+      "holdStartFrame": 64
+    },
+    {
+      "name": "ZombieDie",
+      "frames": 72,
+      "seconds": 3,
+      "loop": false,
+      "rootMotion": true,
+      "holdStartFrame": 62,
+      "events": [
+        {
+          "name": "knees_land",
+          "seconds": 1
+        },
+        {
+          "name": "body_settle",
+          "seconds": 2.3333333333333335
+        }
+      ]
+    }
+  ],
+  "variants": {
+    "standard": {
+      "file": "models/skeleton-zombie.glb",
+      "textureSize": 2048
+    },
+    "lightweight": {
+      "file": "models/skeleton-zombie-mobile.glb",
+      "textureSize": 1024
+    }
+  }
+}
