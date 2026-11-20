@@ -31,6 +31,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int currentWeaponIndex = 0;
 
+    // Read by TouchControls (SWAP button) to pick the next weapon.
+    public int CurrentWeaponIndex { get { return currentWeaponIndex; } }
+    public int WeaponCount { get { return weapons == null ? 0 : weapons.Length; } }
+
     // Android touch weapon switch (written by TouchControls; -1 = none)
     public static int touchWeaponIndex = -1;
 

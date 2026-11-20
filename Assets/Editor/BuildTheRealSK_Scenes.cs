@@ -74,6 +74,18 @@ public static class BuildTheRealSK_Scenes
         return Mathf.Max(s.x, s.z);
     }
 
+    // Pull a perimeter building position inward so the city reads from
+    // spawn (2026-11-20); keep buildings off the road cross (roads run
+    // along x=0 and z=0 out to +/-28).
+    private static Vector3 PullBuildingInward(Vector3 p)
+    {
+        p.x *= 0.6f;
+        p.z *= 0.6f;
+        if (Mathf.Abs(p.x) < 4f && Mathf.Abs(p.z) > 10f) p.x = p.x < 0f ? -8f : 8f;
+        if (Mathf.Abs(p.z) < 4f && Mathf.Abs(p.x) > 10f) p.z = p.z < 0f ? -8f : 8f;
+        return p;
+    }
+
     private static Text MakeText(Transform parent, string name, string content, int fontSize, Color color, Vector2 anchorMin, Vector2 anchorMax, Vector2 pos, TextAnchor align = TextAnchor.MiddleCenter, float width = 400f)
     {
         GameObject go = new GameObject(name, typeof(RectTransform));
@@ -258,6 +270,9 @@ public static class BuildTheRealSK_Scenes
         CameraController cc2 = camGo.AddComponent<CameraController>();
         cc2.playerTransform = player.transform;
         cc2.sensitivity = 2f; cc2.smoothSpeed = 10f;
+        // Pitch clamp widened 2026-11-20 (was -30/+30: at max pitch the
+        // whole frame was sky or ground — play-test #2).
+        cc2.minXAngle = -85f; cc2.maxXAngle = 85f;
 
         // Scope camera (child of main camera)
         GameObject scopeCamGo = new GameObject("ScopeCamera");
@@ -269,6 +284,7 @@ public static class BuildTheRealSK_Scenes
         ScopeCameraController scc = scopeCamGo.AddComponent<ScopeCameraController>();
         scc.playerTransform = player.transform;
         scc.mainCameraController = cc2;
+        scc.minXAngle = -85f; scc.maxXAngle = 85f;
 
         ScopeSystem scopeSys = camGo.AddComponent<ScopeSystem>();
         scopeSys.mainCamera = cam;
@@ -382,8 +398,11 @@ public static class BuildTheRealSK_Scenes
             };
             for (int i = 0; i < pos.Length; i++)
             {
-                float rotY = Mathf.Atan2(-pos[i].x, -pos[i].z) * Mathf.Rad2Deg;
-                GameObject g = Place(KenneyInd + "building-" + b[i] + ".fbx", mapRoot.transform, pos[i], rotY);
+                // Pull the building ring inward (2026-11-20): at the old
+                // +/-32..34 perimeter the map looked empty from spawn.
+                Vector3 p = PullBuildingInward(pos[i]);
+                float rotY = Mathf.Atan2(-p.x, -p.z) * Mathf.Rad2Deg;
+                GameObject g = Place(KenneyInd + "building-" + b[i] + ".fbx", mapRoot.transform, p, rotY);
                 AddMeshColliders(g);
             }
             // Roads: cross through the centre
@@ -428,8 +447,10 @@ public static class BuildTheRealSK_Scenes
             };
             for (int i = 0; i < pos.Length; i++)
             {
-                float rotY = Mathf.Atan2(-pos[i].x, -pos[i].z) * Mathf.Rad2Deg;
-                GameObject g = Place(Downtown + bld[i % bld.Length], mapRoot.transform, pos[i], rotY);
+                // Pull the building ring inward (2026-11-20, see Map1).
+                Vector3 p = PullBuildingInward(pos[i]);
+                float rotY = Mathf.Atan2(-p.x, -p.z) * Mathf.Rad2Deg;
+                GameObject g = Place(Downtown + bld[i % bld.Length], mapRoot.transform, p, rotY);
                 AddMeshColliders(g);
             }
             // Street tiles along the centre cross
@@ -477,11 +498,13 @@ public static class BuildTheRealSK_Scenes
         l.intensity = 1.1f;
         lightGo.transform.rotation = Quaternion.Euler(50f, -30f, 0f);
 
-        // Spawn points
+        // Spawn points (the last three are close to the player spawn so
+        // zombies are visible within seconds of a wave starting —
+        // 2026-11-20; the old corner-only points were 50+ m away).
         GameObject spawnRoot = new GameObject("SpawnPoints");
         Vector3[] spawnPos = isMap1
-            ? new[] { new Vector3(-28, 0, -28), new Vector3(28, 0, -28), new Vector3(-28, 0, 28), new Vector3(28, 0, 28), new Vector3(0, 0, -28) }
-            : new[] { new Vector3(-28, 0, -28), new Vector3(28, 0, 28), new Vector3(0, 0, -28) };
+            ? new[] { new Vector3(-28, 0, -28), new Vector3(28, 0, -28), new Vector3(-28, 0, 28), new Vector3(28, 0, 28), new Vector3(0, 0, -28), new Vector3(14, 0, -14), new Vector3(-14, 0, -14), new Vector3(0, 0, -18) }
+            : new[] { new Vector3(-28, 0, -28), new Vector3(28, 0, 28), new Vector3(0, 0, -28), new Vector3(14, 0, -14), new Vector3(-14, 0, -14), new Vector3(0, 0, -18) };
         Transform[] spawnTransforms = new Transform[spawnPos.Length];
         for (int i = 0; i < spawnPos.Length; i++)
         {
@@ -502,10 +525,11 @@ public static class BuildTheRealSK_Scenes
         surface.BuildNavMesh();
         Debug.Log(sceneName + " NavMesh baked");
 
-        // Player + UI
+        // Player + UI (spawn near the centre, facing down the road:
+        // the old (0,0,25) edge spawn faced a 59 m-distant building).
         UIRefs ui = BuildPlayerUI();
         GameObject[] weapons = new GameObject[2];
-        BuildPlayer(new Vector3(0, 0, 25), 180f, ui, weapons);
+        BuildPlayer(new Vector3(0, 0, 8), 180f, ui, weapons);
 
         // GameManager + WaveSystem
         GameManager gm = env.AddComponent<GameManager>();

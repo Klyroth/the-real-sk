@@ -22,27 +22,24 @@ public class ScopeSystem : MonoBehaviour
     private bool isScoped = false;
     private float originalFOV;
 
+    // Android touch scope (written by TouchControls; a SCOPE button tap
+    // sets this, consumed here). Without it the scope could only be
+    // toggled with a right mouse click — which on a phone fires from a
+    // second-finger touch, so the scope turned on by accident in
+    // play-test #2 and there was no way to turn it off.
+    public static bool touchScopeToggle;
+
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        // Mouse right-click only counts when no touch is active: on
+        // Android a second-finger touch is reported as mouse button 1,
+        // which used to toggle the scope every time the player touched
+        // the screen with two fingers (e.g. look + fire).
+        bool mouseToggle = Input.touchCount == 0 && Input.GetMouseButtonDown(1);
+        if (mouseToggle || touchScopeToggle)
         {
-            isScoped = !isScoped;
-            scopeImage.SetActive(isScoped);
-
-            if (isScoped)
-            {
-                mainCamera.enabled = false;
-
-                scopeCamera.enabled = true;
-                originalFOV = scopeCamera.fieldOfView;
-                scopeCamera.fieldOfView /= zoomSpeed;
-            }
-            else
-            {
-                scopeCamera.enabled = false;
-                scopeCamera.fieldOfView = originalFOV;
-                mainCamera.enabled = true;
-            }
+            touchScopeToggle = false;
+            ToggleScope();
         }
 
         if (isScoped)
@@ -50,6 +47,27 @@ public class ScopeSystem : MonoBehaviour
             float zoom = Input.GetAxis("Mouse ScrollWheel");
             scopeCamera.fieldOfView -= zoom * zoomSpeed * 10f;
             scopeCamera.fieldOfView = Mathf.Clamp(scopeCamera.fieldOfView, 10f, 80f);
+        }
+    }
+
+    public void ToggleScope()
+    {
+        isScoped = !isScoped;
+        scopeImage.SetActive(isScoped);
+
+        if (isScoped)
+        {
+            mainCamera.enabled = false;
+
+            scopeCamera.enabled = true;
+            originalFOV = scopeCamera.fieldOfView;
+            scopeCamera.fieldOfView /= zoomSpeed;
+        }
+        else
+        {
+            scopeCamera.enabled = false;
+            scopeCamera.fieldOfView = originalFOV;
+            mainCamera.enabled = true;
         }
     }
 }

@@ -74,8 +74,13 @@ public class ShootingController : MonoBehaviour
             Reload();
         }
 
-        bool fireHeld = Input.GetButton("Fire1") || touchFireHeld;
-        bool firePressed = Input.GetButtonDown("Fire1") || touchFirePressed;
+        // Fire1 (mouse) only counts when no touch is active: on Android
+        // ANY screen touch is reported as mouse button 0, so without this
+        // gate every look-drag / joystick touch also fired the gun
+        // (play-test #2: ammo 30 -> 11 without the player aiming).
+        // On a phone, firing happens only via TouchControls (FIRE button).
+        bool fireHeld = (Input.touchCount == 0 && Input.GetButton("Fire1")) || touchFireHeld;
+        bool firePressed = (Input.touchCount == 0 && Input.GetButtonDown("Fire1")) || touchFirePressed;
         touchFirePressed = false;
 
         if (isAuto)

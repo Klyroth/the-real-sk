@@ -14,8 +14,9 @@ public class ScopeCameraController : MonoBehaviour
 {
     public Transform playerTransform;
     public float sensitivity = 2f;
-    public float minXAngle = -30f;
-    public float maxXAngle = 30f;
+    // Kept in sync with CameraController (widened 2026-11-20, see there).
+    public float minXAngle = -85f;
+    public float maxXAngle = 85f;
     public float minYAngle = -360f;
     public float maxYAngle = 360f;
     public float smoothSpeed = 10f;

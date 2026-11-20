@@ -15,8 +15,11 @@ public class CameraController : MonoBehaviour
 {
     public Transform playerTransform;
     public float sensitivity = 2f;
-    public float minXAngle = -30f;
-    public float maxXAngle = 30f;
+    // Widened 2026-11-20 from -30/+30: that clamp was so narrow that at
+    // max pitch the whole frame was sky (looking up) or ground (looking
+    // down) — exactly what play-test #2 showed. Standard FPS range.
+    public float minXAngle = -85f;
+    public float maxXAngle = 85f;
     public float minYAngle = -360f;
     public float maxYAngle = 360f;
     public float smoothSpeed = 10f;
@@ -36,8 +39,17 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * sensitivity;
-        float mouseY = Input.GetAxis("Mouse Y") * sensitivity;
+        // Mouse look only counts when no touch is active: on Android a
+        // touch drag is ALSO reported as Mouse X/Y, so without this gate
+        // the touch-look drag would rotate the camera twice as fast
+        // (once via Mouse X/Y, once via touchLookDelta).
+        float mouseX = 0f;
+        float mouseY = 0f;
+        if (Input.touchCount == 0)
+        {
+            mouseX = Input.GetAxis("Mouse X") * sensitivity;
+            mouseY = Input.GetAxis("Mouse Y") * sensitivity;
+        }
 
         mouseX += touchLookDelta.x * sensitivity;
         mouseY += touchLookDelta.y * sensitivity;
